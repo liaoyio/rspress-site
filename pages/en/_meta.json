@@ -1,0 +1,11 @@
+[
+  {
+    "text": "文档",
+    "link": "/docs/",
+    "activeMatch": "/docs/about/"
+  },
+  {
+    "text": "接口",
+    "link": "https://rspress.dev/api/index.html"
+  }
+]

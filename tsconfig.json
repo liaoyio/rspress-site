@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "i18n": ["./i18n.json"],
+      "@/assets/*": ["./docs/public/*"],
+      "@/components/*": ["pages/components/*"],
+      "@zh/*": ["./docs/zh/*"],
+      "@en/*": ["./docs/en/*"],
+    }
+  },
+  "include": [
+    "./rspress.config.ts",
+    "docs/**/*",
+    "pages/components/**/*",
+    "theme/**/*"
+  ]
+}
